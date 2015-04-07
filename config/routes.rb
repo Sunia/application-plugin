@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  mount Blorgh::Engine => '/blorgh'
 
+  mount Blorgh::Engine => '/blorgh'
+  # Set for the routes
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
